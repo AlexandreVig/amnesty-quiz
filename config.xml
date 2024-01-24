@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.amnesty.newquiz" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Amnesty Quiz (new)</name>
+    <description>Quiz Amnesty</description>
+    <author email="aj.lyon3@gmail.com" href="https://www.amnesty.fr/">
+        AJ Lyon 3
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <icon src="res/icon/android/mdpi/ic_launcher.png" density="mdpi"/>
+        <icon src="res/icon/android/hdpi/ic_launcher.png" density="hdpi"/>
+        <icon src="res/icon/android/xhdpi/ic_launcher.png" density="xhdpi"/>
+        <icon src="res/icon/android/xxhdpi/ic_launcher.png" density="xxhdpi"/>
+        <icon src="res/icon/android/xxxhdpi/ic_launcher.png" density="xxxhdpi"/>
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/ic_launcher.png"/>
+    </platform>
+</widget>

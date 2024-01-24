@@ -1,0 +1,49 @@
+{
+  "name": "io.amnesty.newquiz",
+  "displayName": "Amnesty Quiz (new)",
+  "version": "1.0.0",
+  "description": "Quiz Amnesty",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-android": "cordova build android",
+    "install-android": "sh ./install-on-android.sh"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "AJ Lyon 3",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@artem9989/vue-three-round-slider": "^1.2.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.4.2",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@mdi/js": "^7.3.67",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "cordova-android": "^12.0.1",
+    "cordova-browser": "^7.0.0",
+    "cordova-electron": "^3.1.0",
+    "cordova-plugin-console": "^1.1.0",
+    "cordova-plugin-screen-orientation": "^3.0.4",
+    "es6-promise-plugin": "^4.2.2",
+    "vite": "^4.4.11"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser",
+      "electron"
+    ],
+    "plugins": {
+      "cordova-plugin-console": {},
+      "cordova-plugin-screen-orientation": {}
+    }
+  }
+}

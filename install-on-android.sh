@@ -1,0 +1,2 @@
+rm -f ./platforms/android/app/build/outputs/bundle/release/app-release.apks
+npm run build && npm run build-android -- --release && bundletool build-apks --bundle=./platforms/android/app/build/outputs/bundle/release/app-release.aab --output=./platforms/android/app/build/outputs/bundle/release/app-release.apks && bundletool install-apks --apks=./platforms/android/app/build/outputs/bundle/release/app-release.apks
